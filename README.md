@@ -24,8 +24,8 @@ Testing the server and client
 NAME:VASUNDRA SRI R
 REG NO:212222230168
 ```
-### Server code:
-# echo-server.py
+## Server code:
+### echo-server.py
 ```
 import socket
 
@@ -44,8 +44,8 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                 break
             conn.sendall(data)
 ```
-### Client Code:
-# echo-client.py
+## Client Code:
+### echo-client.py
 ```
 import socket
 
